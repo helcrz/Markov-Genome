@@ -1,0 +1,36 @@
+
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Fichiers de configuration locaux
+.env
+.env.*
+!.env.example
+
+# Caches et tests
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Editeurs et systeme
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Donnees volumineuses ou generees
+data/raw/*
+data/processed/*
+data/simulated/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/simulated/.gitkeep
+
+# Resultats temporaires
+results/figures/*
+results/tables/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
